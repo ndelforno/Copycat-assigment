@@ -2,10 +2,11 @@
 *{
   box-sizing: border-box;
   margin: 0;
+  font-family: "Helvetica Neue";
 }
 .container{
   display: grid;
-  grid-template-columns: 10% 1fr 1fr 10%;
+  grid-template-columns: 15% 1fr 1fr 15%;
 }
 header{
   display:grid;
@@ -13,7 +14,7 @@ header{
   color: white;
   background-color: #06D6A0;
   text-align: left;
-  padding: 10px;
+  padding: 15px;
   font-size: 10px;
 }
 .navbar {
@@ -61,6 +62,7 @@ li img {
   grid-column: 3/4;
   color: white;
   background-color: #26547C;
+  padding-top:20px;
 }
 .meow h2 {
   font-size: 45px;
@@ -97,8 +99,13 @@ h2{
   padding-left: 10px;
   text-align: left;
 }
+.fvm{
+  padding:30px;
+  text-align: center;
+}
 h3 {
-  padding:60px;
+  font-size: 30px;
+  padding: 60px;
   text-align: center;
   color:#EF476F;
   text-transform: uppercase;
